@@ -1,0 +1,280 @@
+/* CSS Document */
+body{
+	background-position:center;
+	background-attachment:fixed;
+	background-size:100%;
+	background-repeat:no-repeat;
+	background:#DBDBDB;
+}
+.header{
+	width:100%;
+	margin:0% auto;
+	height:60px;
+	border-radius:3px 0px 3px 0	px;
+	background-color:#00C462;
+}
+.header-text{
+	font-size:25px;
+	font-family:Arial Narrow;
+	color:#FFF;
+	padding:12px 0px 0px 15px;
+}
+.content{
+	width:35%;
+	height:auto;
+	background:#FFF;
+	margin:2% auto;
+	box-shadow:10px 10px 10px rgba(0,0,0,0.2);
+}
+.menu{
+	margin: 0;
+	padding: 0;
+	margin-left: 5%;
+	margin-right: : 5%;
+}
+.menu li{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	list-style: none;
+	float: left;
+	padding: 13px 18% 13px 19%;
+	border: 1px solid #F2E8E8;
+	font-family: Arial Narrow;
+	color: #999;
+}
+.menu li:hover{
+	background-color: #DED8D8;
+}
+.kotak{
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+}
+.active-menu{
+	background-color: #F2E8E8;
+}
+.font-log{
+	font-family: Arial;
+	text-align: center;
+	font-size: 25px;
+	color: #999;
+}
+.log input[name="username"]{
+	width: 99%;
+	margin-top: 5%;
+	border: 1px solid#D4CDCD;
+	height: 40px;
+	border-radius: 3px;
+	padding-left: 1%;
+	font-size: 17px;
+	font-family: Arial Narrow;
+	color: #999;
+}
+input[name="password"]{
+	width: 99%;
+	margin-top: 5%;
+	border: 1px solid#D4CDCD;
+	height: 40px;
+	border-radius: 3px;
+	padding-left: 1%;
+	font-size: 17px;
+	font-family: Arial Narrow;
+	color: #999;
+}
+input[name="login"]{
+	width: 100%;
+	margin-top: 5%;
+	border: none;
+	height: 40px;
+	margin-bottom: 8%;
+	background-color: #F56E6E;
+	border-radius: 3px;
+	font-size: 17px;
+	font-family: Arial Narrow;
+	color: #fff;
+}
+input[name="login"]:hover{
+	background-color: #D95151;
+	transition: all 150ms linear;
+	cursor: pointer;
+}
+input[type="text"]{
+	width: 99%;
+	margin-top: 5%;
+	border: 1px solid#D4CDCD;
+	height: 30px;
+	border-radius: 3px;
+	padding-left: 1%;
+	font-size: 17px;
+	font-family: Arial Narrow;
+	color: #999;
+}
+input[type="date"]{
+	width: 99%;
+	border-radius: 3px;
+	margin-top: 5%;
+	border: 1px solid#D4CDCD;
+	height: 30px;
+	padding-left: 1%;
+	font-size: 17px;
+	font-family: Arial Narrow;
+	color: #999;
+}
+input[type="file"]{
+	width: 100%;
+	margin-top: 5%;
+	border-radius: 3px;
+	border: 1px solid#D4CDCD;
+	height: 30px;
+	padding-left: 0;
+	font-size: 13px;
+	font-family: Arial Narrow;
+	color: #999;
+}
+.reg input[name="password"]{
+	width: 99%;
+	margin-top: 5%;
+	border: 1px solid#D4CDCD;
+	height: 30px;
+	border-radius: 3px;
+	padding-left: 1%;
+	font-size: 17px;
+	font-family: Arial Narrow;
+	color: #999;
+}
+input[type="number"]{
+	width: 99%;
+	margin-top: 5%;
+	border: 1px solid#D4CDCD;
+	height: 30px;
+	border-radius: 3px;
+	padding-left: 1%;
+	font-size: 17px;
+	font-family: Arial Narrow;
+	color: #999;
+}
+@media screen and (max-width: 1200px){
+.content{
+	width:50%;
+	height:auto;
+	background:#FFF;
+	margin:2% auto;
+	box-shadow:10px 10px 10px rgba(0,0,0,0.2);
+}
+.menu{
+	margin: 0;
+	padding: 0;
+	margin-left: 2%;
+	margin-right: : 2%;
+}
+.menu li{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	list-style: none;
+	float: left;
+	padding: 13px 16.5% 13px 19%;
+	border: 1px solid #F2E8E8;
+	font-family: Arial Narrow;
+	color: #999;
+}	
+}
+@media screen and (max-width: 1024px){
+.content{
+	width:50%;
+	height:auto;
+	background:#FFF;
+	margin:2% auto;
+	box-shadow:10px 10px 10px rgba(0,0,0,0.2);
+}
+.menu{
+	margin: 0;
+	padding: 0;
+	margin-left: 2%;
+	margin-right: : 2%;
+}
+.menu li{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	list-style: none;
+	float: left;
+	padding: 13px 16.5% 13px 19%;
+	border: 1px solid #F2E8E8;
+	font-family: Arial Narrow;
+	color: #999;
+}
+}
+@media screen and (max-width: 736px){
+	.content{
+	width:95%;
+	height:auto;
+	background:#FFF;
+	margin:2%;
+	box-shadow:10px 10px 10px rgba(0,0,0,0.2);
+}
+.menu{
+	margin: 0;
+	padding: 0;
+	margin-left: 2%;
+	margin-right: : 2%;
+}
+.menu li{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	list-style: none;
+	float: left;
+	padding: 13px 17% 13px 19%;
+	border: 1px solid #F2E8E8;
+	font-family: Arial Narrow;
+	color: #999;
+}
+}
+@media screen and (max-width: 667px){
+	.content{
+	width:95%;
+	height:auto;
+	background:#FFF;
+	margin:2% auto;
+	box-shadow:10px 10px 10px rgba(0,0,0,0.2);
+}
+.menu{
+	margin: 0;
+	padding: 0;
+	margin-left: 2%;
+	margin-right: : 2%;
+}
+.menu li{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	list-style: none;
+	float: left;
+	padding: 13px 18% 13px 19%;
+	border: 1px solid #F2E8E8;
+	font-family: Arial Narrow;
+	color: #999;
+}
+}
+@media screen and (max-width: 568px){
+	.content{
+	width:95%;
+	height:auto;
+	background:#FFF;
+	margin:2% auto;
+	box-shadow:10px 10px 10px rgba(0,0,0,0.2);
+}
+.menu{
+	margin: 0;
+	padding: 0;
+	margin-left: 2%;
+	margin-right: : 2%;
+}
+.menu li{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	list-style: none;
+	float: left;
+	padding: 10px 14% 10px 17%;
+	border: 1px solid #F2E8E8;
+	font-family: Arial Narrow;
+	color: #999;
+}
+}
